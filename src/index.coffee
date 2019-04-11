@@ -36,6 +36,14 @@ cards = [
       luhn: true
   }
   {
+      type: 'enroute'
+      pattern: /^(2014|2149)/
+      format: /(\d{1,4})(\d{1,7})?(\d{1,4})?/
+      length: [15]
+      cvcLength: [3]
+      luhn: true
+  }
+  {
       type: 'discover'
       pattern: /^(6011|65|64[4-9]|622)/
       format: defaultFormat
