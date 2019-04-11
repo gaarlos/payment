@@ -48,7 +48,8 @@
     "run-sequence": "~2.2.1",
     "tiny-lr": "1.1.1",
     "vinyl-source-stream": "~2.0.0",
-    "webpack": "^4.29.6"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
   "dependencies": {
     "qj": "~2.0.0"
